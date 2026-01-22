@@ -32,7 +32,7 @@ const handleSubmit = (e: React.FormEvent) => {
     },
     {
       onSuccess: () => {
-        navigate("/"); // ✅ redirect to home
+        navigate("/");
       },
     }
   );
